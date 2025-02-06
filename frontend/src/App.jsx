@@ -30,7 +30,7 @@ const App = () => {
 
         try {
             setLoading(true);
-            await axios.post("http://localhost:5000/api/upload", formData, {
+            await axios.post("https://creditsea-fullstack.onrender.com/api/upload", formData, {
                 headers: { "Content-Type": "multipart/form-data" },
             });
             fetchReport();
@@ -44,7 +44,7 @@ const App = () => {
 
     const fetchReport = async () => {
         try {
-            const { data } = await axios.get("http://localhost:5000/api/reports");
+            const { data } = await axios.get("https://creditsea-fullstack.onrender.com/api/reports");
             setReport(data);
         } catch (err) {
             setError("Error fetching data.");
