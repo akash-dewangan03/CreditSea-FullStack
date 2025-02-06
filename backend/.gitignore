@@ -1,0 +1,42 @@
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# dotenv environment variables file
+.env
+
+# Log files
+logs/
+*.log
+
+# Dependency directories
+jspm_packages/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE or editor config files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Build directories
+dist/
+build/
+
+# Package lock and Yarn lock files (if you prefer to ignore them)
+package-lock.json
+yarn.lock
+
+# Coverage directory for testing
+coverage/
+
+# Temporary files
+*.tmp
+*.swp
+
+# Backup files
+*~
